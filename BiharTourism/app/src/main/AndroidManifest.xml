@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.nitishkumar.bihartourism">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.NoActionBar">
+        <activity android:name=".welcome">0
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".aboutbihar"></activity>
+        <activity android:name=".district"></activity>
+        <activity android:name=".patna"></activity>
+        <activity android:name=".gaya"></activity>
+        <activity android:name=".rajgir"></activity>
+        <activity android:name=".rohtas"></activity>
+        <activity android:name=".vaishali"></activity>
+        <activity android:name=".golghar"></activity>
+        <activity android:name=".abhishekpushkarn"></activity>
+        <activity android:name=".ashokpillar"></activity>
+        <activity android:name=".ashokstupapeak"></activity>
+        <activity android:name=".bawanpokhartemple"></activity>
+        <activity android:name=".bodhitree"></activity>
+        <activity android:name=".buddhasmritipark"></activity>
+        <activity android:name=".ecopark"></activity>
+        <activity android:name=".greatbuddhastatue"></activity>
+        <activity android:name=".griddhakutapeak"></activity>
+        <activity android:name=".hiuentsang"></activity>
+        <activity android:name=".maatarachanditemple"></activity>
+        <activity android:name=".mahabodhitemple"></activity>
+        <activity android:name=".mahavirmandir"></activity>
+        <activity android:name=".nalandauniversity"></activity>
+        <activity android:name=".patandevi"></activity>
+        <activity android:name=".patnameuseum"></activity>
+        <activity android:name=".patnazoo"></activity>
+        <activity android:name=".planeterium"></activity>
+        <activity android:name=".rajavishalkagarh"></activity>
+        <activity android:name=".rohtasgarhfort"></activity>
+        <activity android:name=".sanabhandaracaves"></activity>
+        <activity android:name=".takhtsripatnasaheb"></activity>
+        <activity android:name=".tombofhasankhansur"></activity>
+        <activity android:name=".tombofshershahsuri"></activity>
+        <activity android:name=".vishnupadtemple"></activity>
+        <activity android:name=".fantasia"></activity>
+
+
+    </application>
+
+</manifest>

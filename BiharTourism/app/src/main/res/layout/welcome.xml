@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="#006699">
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="150dp"
+        android:id="@+id/bihar"
+        android:layout_marginLeft="40dp"
+        android:background="@drawable/bihar"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome to"
+        android:textAllCaps="true"
+        android:textSize="30dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="80dp"
+        android:id="@+id/welcome"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="B"
+        android:textSize="80dp"
+        android:shadowRadius="5"
+        android:layout_marginTop="380dp"
+        android:layout_marginLeft="60dp"
+        android:id="@+id/b"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="I"
+        android:textSize="80dp"
+        android:layout_marginTop="380dp"
+        android:layout_marginLeft="110dp"
+        android:id="@+id/i"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="H"
+        android:textSize="80dp"
+        android:layout_marginTop="380dp"
+        android:layout_marginLeft="135dp"
+        android:id="@+id/h"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="A"
+        android:textSize="80dp"
+        android:layout_marginTop="380dp"
+        android:layout_marginLeft="195dp"
+        android:id="@+id/a"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="R"
+        android:textSize="80dp"
+        android:layout_marginTop="380dp"
+        android:layout_marginLeft="250dp"
+        android:id="@+id/r"/>
+
+
+
+</RelativeLayout>

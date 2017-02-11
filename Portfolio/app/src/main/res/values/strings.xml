@@ -1,0 +1,128 @@
+<resources>
+    <string name="app_name">Portfolio</string>
+
+
+    <string name="profile">
+       \nThis is Nitish Kumar Ranjan currently an undergraduate of IIT Madras.
+       \nI am an energetic and enthusiastic person who enjoy challenges and achieving personal goals.
+        \nI want to succeed in an environment of growth and  excellence to meet personal and organizational growth.
+        \nIn shorts, I am a reliable, trustworthy,\nhardworking and always eager to \nlearn for the betterment of the future.
+         </string>
+
+
+
+    <string name="educqua">\u0020 \u0020 \u0020  Welcome to my Educational \n \u0020 \u0020 \u0020 \u0020 \u0020 \u0020Qualification section\n\n
+        School : D.A.V Public School\n
+        10th : 9.6 (CGPA)\n
+        12th : 90.2%\n\n
+        Institution :
+        \n Indian Institute of Technology,Madras\n  (IIT Madras)
+           \n Department : Biotechnology
+        \n CGPA : 7.51*
+
+    </string>
+
+
+
+
+    <string name="skill">
+       Android App Development\n
+        Language : Python,C\n
+       Web Development :\n
+          Frontend : Html,Css,Jquery,\n \u0020 \u0020\u0020 \u0020\u0020 \u0020\u0020 \u0020\u0020 \u0020\u0020 \u0020Javascript,Bootstrap\n
+          Backend : Php,Nodejs\n
+          Database : Mysql\n
+          MS Office
+       \n Graphics Design : \n Adobe Photoshop,\n Adobe Illustrator
+    </string>
+
+
+
+<string name="coursecompleted">
+ \u0020\u2212	Principle of Management\n
+\u2212   Accounts and Finance *\n
+\u2212	Marketing Management\n
+\u2212	Principle of Economics\n
+\u2212   Computational Engineering\n
+\u2212	Computational Techniques in \n \u0020 \u0020Bio- system\n
+\u2212	Concepts in Engineering Design\n
+\u2212	Differential Equation\n
+\u2212	Material and Energy balance\n
+\u2212	Calculus in Several variables\n
+\u2212	Biostatistics\n
+\u2212   Bioinformatics\n
+\u2212   Basic Electrical Engineering\n
+\u2212   Thermodynamics\n
+\u2212	Analytical techniques in \n\u0020 \u0020 Biotechnology\n
+</string>
+<string name="lab">
+\n\u2212 Computer Science Laboratory
+\n\u2212 Physics Laboratory
+\n\u2212 Computational Biology Laboratory *
+\n\u2212 Biomolecular Analysis Laboratory\n\n
+        *On-going Courses\n
+
+    </string>
+
+
+
+
+
+
+    <string name="projects1">
+       \n\u2712	Summer Internship at  CSIR-\n\u0020 \u0020 \u0020 IGIB (Institute of Genomics \n\u0020 \u0020 \u0020and  Integrative Biology) :
+    </string>
+
+    <string name="projects1a">
+-Did Gene cloning and protein expression of Rv2622 a putative methyl transferase in Mycobacterium tuberculosis
+    </string>
+    <string name="projects2">
+\n\n\u2712	Life skill Project: Rural\n\u0020 \u0020 \u0020Management :
+    </string>
+    <string name="projects2a">
+-As a member of documentation \n\u0020committee, compiled and analyzed the \n\u0020given data to devise solutions.
+    </string>
+    <string name="projects3">
+\n\n\u2712	National Service Scheme \n\u0020 \u0020 \u0020Project “Education via \n\u0020 \u0020 \u0020blogging” :
+    </string>
+    <string name="projects3a">
+-Created a blog which is a useful \n\u0020knowledge resource for students, \n\u0020educators, parents and community \n\u0020members.
+    </string>
+    <string name="projects4">
+\n\n\u2712	Engineering design(ID1100) \n\u0020 \u0020 \u0020 Project :
+    </string>
+    <string name="projects4a">
+ 1) Made a balloon powered vehicle that \n\u0020will move forward at least 50 cm, make a ‘U-turn’, and return 50cm.
+\n 2) Designed and developed a ‘device to \n\u0020clean ceiling fans’ that is easy to use and clean, not cause fatigue to the user, \n\u0020re‐usable and eco‐friendly.
+\n\n
+    </string>
+
+
+
+
+    \u2212
+
+           <string name="pors1">  \n
+              \u2708 Project Representative at National \n\u0020 \u0020 \u0020Service Scheme :
+    </string>
+
+    <string name="pors1a">
+	   -Represented a project “Wikipedia \n\u0020translation in Hindi”
+    </string>
+
+           <string name="pors2">
+       \n\n \u2708	Coordinator of Webops in Biofest :
+           </string>
+
+           <string name="pors2a">
+     -Was a coordinator in the front end \n\u0020Development department in Biofest\n\u0020(Departmental fest).
+         </string>
+           <string name="pors3">
+	    \n\n\u2708	Coordinator of Webops in Shaastra\n\u0020 \u0020  (Technical fest of IITM) :
+           </string>
+           <string name="pors3a">
+        -As a coordinator in the front end \n\u0020development in shaastra website.\n\n
+           </string>
+
+
+</resources>

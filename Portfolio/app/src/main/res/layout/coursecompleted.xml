@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:scrollbars="none"
+    android:fillViewport="true"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#6470AA">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Relevant Courses"
+        android:textAllCaps="true"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:layout_marginTop="20dp"
+        android:textColor="#fff"
+        android:layout_marginLeft="60dp"/>
+
+
+    <View
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#c0c0c0"
+        />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/coursecompleted"
+            android:textSize="20dp"
+            android:textColor="#fff"
+            android:layout_marginTop="30dp"
+            android:lineSpacingExtra="5dp"
+            android:layout_marginLeft="10dp"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Labs "
+        android:textSize="25dp"
+        android:layout_marginTop="20dp"
+        android:textColor="#fff"
+        android:layout_marginLeft="15dp"
+        />
+    <View
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#c0c0c0"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/lab"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"
+        android:textColor="#fff"
+        android:lineSpacingExtra="5dp"
+        android:layout_marginLeft="10dp"
+        />
+</LinearLayout>
+    </ScrollView>

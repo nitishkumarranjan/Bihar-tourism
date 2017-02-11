@@ -1,0 +1,111 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="50dp"
+    tools:context="com.example.nitishkumar.portfolio.MainActivity"
+    android:background="@drawable/blue2">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="ELCOME TO MY PORTFOLIO"
+        android:id="@+id/textView"
+        android:layout_marginLeft="55dp"
+        android:layout_marginTop="25.5dp"
+        android:textSize="20dp"
+        android:lineSpacingExtra="10dp"
+        android:textColor="#ffffff"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="W"
+        android:id="@+id/w"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="0dp"
+        android:textSize="45dp"
+        android:lineSpacingExtra="10dp"
+        android:textColor="#ffffff"
+        />
+
+    <EditText
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="300dp"
+        android:layout_marginLeft="60dp"
+        android:hint="Please enter your name"
+        android:textColor="#fff"
+        android:maxLength="13"
+        android:id="@+id/messagetext"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="380dp"
+        android:text="Click to Continue"
+        android:textAllCaps="false"
+        android:onClick="clicktocontinue"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:textColor="#ffffff"
+        android:textSize="20dp"
+        android:background="#16a085" />
+
+    <ImageView
+        android:layout_width="140dp"
+        android:layout_height="160dp"
+        android:id="@+id/imageView"
+        android:src="@drawable/nitish"
+        android:layout_marginTop="90dp"
+        android:layout_marginRight="180dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/textView"
+        android:layout_alignEnd="@+id/textView" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:text="Name : Nitish Kumar Ranjan"
+        android:layout_marginLeft="140dp"
+        android:textSize="15dp"
+        android:textColor="#fff"
+        android:id="@+id/name"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="145dp"
+        android:text="Roll no : BS13B019"
+        android:layout_marginLeft="140dp"
+        android:textSize="15dp"
+        android:textColor="#fff"
+        android:id="@+id/roll"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="185dp"
+        android:text="Department : Biotechnology"
+        android:layout_marginLeft="140dp"
+        android:textSize="15dp"
+        android:textColor="#fff"
+        android:id="@+id/dept"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="225dp"
+        android:text="Institution : IIT Madras"
+        android:layout_marginLeft="140dp"
+        android:textSize="15dp"
+        android:textColor="#fff"
+        android:id="@+id/insti"
+        />
+</RelativeLayout>

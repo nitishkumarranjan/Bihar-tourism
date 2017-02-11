@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:scrollbars="none"
+    android:fillViewport="true"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical" android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+    android:background="#0089D0">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Projects "
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:textAllCaps="true"
+        android:lineSpacingExtra="5dp"
+        android:textColor="#fff"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="110dp"/>
+
+    <View
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#c0c0c0"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/projects1"
+        android:textSize="22dp"
+        android:lineSpacingExtra="5dp"
+        android:textColor="#FFF"
+        android:textStyle="bold"
+        android:layout_marginLeft="15dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/projects1a"
+        android:textSize="18dp"
+        android:lineSpacingExtra="5dp"
+        android:textColor="#fff"
+        android:paddingTop="10dp"
+        android:layout_marginLeft="40dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/projects2"
+        android:textSize="22dp"
+        android:lineSpacingExtra="5dp"
+        android:textColor="#FFF"
+        android:textStyle="bold"
+        android:layout_marginLeft="15dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/projects2a"
+        android:textSize="18dp"
+        android:lineSpacingExtra="5dp"
+        android:textColor="#fff"
+        android:paddingTop="10dp"
+        android:layout_marginLeft="40dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/projects3"
+        android:textSize="22dp"
+        android:lineSpacingExtra="5dp"
+        android:textColor="#FFF"
+        android:textStyle="bold"
+        android:layout_marginLeft="15dp"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/projects3a"
+        android:textSize="18dp"
+        android:lineSpacingExtra="5dp"
+        android:textColor="#fff"
+        android:paddingTop="10dp"
+        android:layout_marginLeft="40dp"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/projects4"
+        android:textSize="22dp"
+        android:lineSpacingExtra="5dp"
+        android:textColor="#FFF"
+        android:textStyle="bold"
+        android:layout_marginLeft="15dp"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/projects4a"
+        android:textSize="18dp"
+        android:lineSpacingExtra="5dp"
+        android:textColor="#fff"
+        android:paddingTop="10dp"
+        android:layout_marginLeft="40dp"/>
+
+
+</LinearLayout>
+    </ScrollView>

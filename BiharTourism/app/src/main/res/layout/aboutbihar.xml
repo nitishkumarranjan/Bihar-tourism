@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+
+    >
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none"
+        android:background="@drawable/wallpaper">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="About Bihar"
+        android:textStyle="bold"
+        android:textSize="35dp"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="80dp"
+        android:textColor="#fff"
+        android:id="@+id/textView" />
+            <View
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginTop="70dp"
+                android:background="#21B684"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/aboutbihar"
+                android:lineSpacingExtra="4dp"
+                android:textSize="17dp"
+                android:gravity="left"
+                android:layout_marginTop="90dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="5dp"
+                android:textColor="#fff"
+                android:id="@+id/text"
+                android:layout_marginBottom="10dp"
+                />
+
+            <ImageButton
+                android:layout_width="90dp"
+                android:layout_height="80dp"
+                android:layout_below="@+id/text"
+                android:id="@+id/button"
+                android:layout_marginLeft="240dp"
+                android:background="@drawable/arrowfinal"
+                android:layout_marginBottom="10dp"/>
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

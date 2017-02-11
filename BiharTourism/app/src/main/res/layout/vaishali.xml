@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.nitishkumar.card.MainActivity"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+
+    android:background="#212F3C">
+
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fillViewport="true"
+        android:scrollbars="none"
+        >
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <android.support.v7.widget.CardView
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/Card_View"
+                android:layout_gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                card_view:cardCornerRadius="1dp"
+                card_view:cardBackgroundColor="#117A65"
+                card_view:cardElevation="5dp">
+
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent">
+
+                    <TextView
+                        android:id="@+id/textView1"
+                        android:text="Ashok Pillar"
+                        android:textSize="20dp"
+                        android:layout_marginLeft="150dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textStyle="bold"
+                        android:textColor="#fff"
+                        android:layout_alignParentTop="true"/>
+
+                    <TextView
+                        android:id="@+id/textView2"
+                        android:text="A pillar of wonder"
+                        android:textSize="15dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#fff"
+                        android:layout_marginLeft="150dp"
+                        android:layout_below="@+id/textView1"/>
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="90dp"
+                        android:background="@drawable/ashokpillarp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginLeft="10dp"
+                        />
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/Card_View2"
+                android:layout_gravity="center"
+                android:scrollbars="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginTop="120dp"
+                card_view:cardCornerRadius="1dp"
+                card_view:cardBackgroundColor="#117A65"
+                card_view:cardElevation="5dp">
+
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent">
+
+                    <TextView
+                        android:id="@+id/textView3"
+                        android:text="Abhishek Pushkarn"
+                        android:textSize="20dp"
+                        android:layout_marginLeft="150dp"
+                        android:layout_marginTop="10dp"
+                        android:textColor="#fff"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textStyle="bold"
+                        android:layout_alignParentTop="true"/>
+
+                    <TextView
+                        android:id="@+id/textView4"
+                        android:text="The coronation tank"
+                        android:textSize="15dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="150dp"
+                        android:textColor="#fff"
+                        android:layout_below="@+id/textView3"/>
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="90dp"
+                        android:background="@drawable/abhishekpushkarnp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginLeft="10dp"
+                        />
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/Card_View3"
+                android:layout_gravity="center"
+                android:scrollbars="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginTop="240dp"
+                card_view:cardCornerRadius="1dp"
+                card_view:cardBackgroundColor="#117A65"
+                card_view:cardElevation="5dp">
+
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent">
+
+                    <TextView
+                        android:id="@+id/textView5"
+                        android:text="Bawan Pokhar Temple"
+                        android:textColor="#fff"
+                        android:textSize="20dp"
+                        android:layout_marginLeft="150dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textStyle="bold"
+                        android:layout_alignParentTop="true"/>
+
+                    <TextView
+                        android:id="@+id/textView6"
+                        android:text="Bawan Pond Temple"
+                        android:textColor="#fff"
+                        android:textSize="15dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="150dp"
+                        android:layout_below="@+id/textView5"/>
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="90dp"
+                        android:background="@drawable/bawanpokharp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginLeft="10dp"
+                        />
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/Card_View4"
+                android:layout_gravity="center"
+                android:scrollbars="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginTop="360dp"
+                card_view:cardCornerRadius="1dp"
+                card_view:cardBackgroundColor="#117A65"
+                card_view:cardElevation="5dp">
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent">
+
+                    <TextView
+                        android:id="@+id/textView7"
+                        android:text="Raja Vishal ka Garh"
+                        android:textSize="20dp"
+                        android:layout_marginLeft="150dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textStyle="bold"
+                        android:textColor="#fff"
+                        android:layout_alignParentTop="true"/>
+
+                    <TextView
+                        android:id="@+id/textView8"
+                        android:text="World’s first Democratic Republic"
+                        android:textColor="#fff"
+                        android:textSize="15dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="150dp"
+                        android:layout_below="@+id/textView7"/>
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="90dp"
+                        android:background="@drawable/rajavishalp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginLeft="10dp"
+                        />
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+        </RelativeLayout>
+    </ScrollView>
+</LinearLayout>

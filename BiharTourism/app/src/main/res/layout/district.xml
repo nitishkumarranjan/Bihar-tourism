@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#004D40">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scrollbars="none">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/district"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="10dp"
+                android:lineSpacingExtra="5dp"
+                android:textSize="15dp"
+                android:textColor="#fff"
+                android:layout_marginBottom="10dp"/>
+
+            <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:layout_width="330dp"
+                    android:layout_height="200dp"
+                    android:layout_marginTop="130dp"
+                    android:textAllCaps="false"
+                    android:onClick="Patna"
+                    android:textSize="30dp"
+                    android:gravity="bottom"
+                    android:text="Patna"
+                    android:padding="10dp"
+                    android:layout_marginLeft="15dp"
+                    android:textColor="#ffffff"
+                    android:id="@+id/patna"
+                    android:background="@drawable/gradient" />
+                <ImageView
+                    android:layout_width="330dp"
+                    android:layout_height="200dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="130dp"
+                    android:background="@drawable/patna"
+                    />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:layout_width="160dp"
+                    android:layout_height="100dp"
+                    android:layout_marginTop="25dp"
+                    android:textAllCaps="false"
+                    android:onClick="Nalanda"
+                    android:textSize="30dp"
+                    android:gravity="bottom"
+                    android:text="Nalanda"
+                    android:padding="10dp"
+                    android:layout_marginLeft="180dp"
+                    android:textColor="#ffffff"
+                    android:id="@+id/nalanda"
+                    android:background="@drawable/gradient" />
+                <ImageView
+                    android:layout_width="160dp"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="180dp"
+                    android:layout_marginTop="25dp"
+                    android:background="@drawable/nalanda1"
+                    />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:layout_width="160dp"
+                    android:layout_height="100dp"
+                    android:layout_marginTop="25dp"
+                    android:textAllCaps="false"
+                    android:onClick="Gaya"
+                    android:textSize="30dp"
+                    android:gravity="bottom"
+                    android:text="Gaya"
+                    android:padding="10dp"
+                    android:layout_marginLeft="15dp"
+                    android:textColor="#ffffff"
+                    android:id="@+id/gaya"
+                    android:background="@drawable/gradient" />
+                <ImageView
+                    android:layout_width="160dp"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="25dp"
+                    android:background="@drawable/gaya"
+                    />
+            </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="160dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="335dp"
+            android:textAllCaps="false"
+            android:onClick="Vaishali"
+            android:textSize="30dp"
+            android:gravity="bottom"
+            android:text="Vaishali"
+            android:padding="10dp"
+            android:layout_marginLeft="180dp"
+            android:textColor="#ffffff"
+            android:id="@+id/vaishali"
+            android:background="@drawable/gradient" />
+        <ImageView
+            android:layout_width="160dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="180dp"
+            android:layout_marginTop="335dp"
+            android:background="@drawable/vaishali"
+            />
+    </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:layout_width="160dp"
+                    android:layout_height="100dp"
+                    android:layout_marginTop="335dp"
+                    android:textAllCaps="false"
+                    android:onClick="Rohtas"
+                    android:text="Rohtas"
+                    android:padding="10dp"
+                    android:textSize="30dp"
+                    android:gravity="bottom"
+                    android:layout_marginLeft="15dp"
+                    android:textColor="#ffffff"
+                    android:id="@+id/rohtas"
+                    android:background="@drawable/gradient" />
+                <ImageView
+                    android:layout_width="160dp"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="335dp"
+                    android:background="@drawable/rohtas"
+                    android:layout_marginBottom="20dp"
+                    />
+            </RelativeLayout>
+
+        </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

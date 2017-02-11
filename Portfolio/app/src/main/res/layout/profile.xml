@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FCB711">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome to my Profile section"
+        android:textSize="20dp"
+        android:textAllCaps="true"
+        android:lineSpacingExtra="10dp"
+        android:textColor="#ffffff"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="10dp"
+        android:textStyle="bold"
+        />
+    <View
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginTop="60dp"
+        android:background="#21B684"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/profile"
+        android:lineSpacingExtra="5dp"
+        android:textSize="20dp"
+        android:textColor="#ffffff"
+        android:layout_marginTop="65dp"
+        android:layout_marginLeft="15dp"
+        />
+<ImageView
+    android:layout_width="30dp"
+    android:layout_height="30dp"
+    android:layout_marginTop="470dp"
+    android:layout_marginLeft="15dp"
+    android:src="@drawable/mail"/>
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="510dp"
+        android:layout_marginLeft="15dp"
+        android:src="@drawable/phone"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Contact @"
+        android:textColor="#fff"
+        android:textSize="25dp"
+        android:layout_marginTop="425dp"
+        android:layout_marginLeft="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=": nitishkumarranjan11@gmail.com"
+        android:textColor="#fff"
+        android:textSize="20dp"
+        android:layout_marginTop="471dp"
+        android:layout_marginLeft="50dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=":  9003105915"
+        android:textColor="#fff"
+        android:textSize="20dp"
+        android:layout_marginTop="512dp"
+        android:layout_marginLeft="50dp"/>
+</RelativeLayout>
